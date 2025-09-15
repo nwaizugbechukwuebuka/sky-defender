@@ -1,73 +1,127 @@
-# Welcome to your Lovable project
+# CyberSOC - Cloud Security Operations Center
 
-## Project info
+A comprehensive cloud security monitoring and threat detection platform built for modern security operations teams. This platform provides real-time visibility into security events, automated threat detection, and streamlined incident response workflows.
 
-**URL**: https://lovable.dev/projects/61bb14cd-887f-436a-9215-3bfb12e4fac9
+## 🛡️ Features
 
-## How can I edit this code?
+### Security Monitoring Dashboard
+- **Real-time Security Metrics**: Monitor security posture, active threats, and system health
+- **Live Threat Detection**: Automated detection of brute force attacks, API anomalies, and suspicious activities  
+- **Interactive Analytics**: Visual charts showing threat trends, severity distribution, and 24-hour activity timelines
+- **Security Score Tracking**: Overall security posture scoring with detailed breakdowns
 
-There are several ways of editing your application.
+### Threat Detection & Alerting
+- **Automated Rule-based Detection**: 
+  - Brute force attack detection
+  - Unusual API activity monitoring
+  - Geographic location anomaly detection
+  - Privilege escalation attempt detection
+- **Real-time Alert System**: Live threat notifications with severity levels
+- **Alert Classification**: High, Medium, Low severity categorization
+- **Investigation Workflows**: Streamlined processes for threat analysis
 
-**Use Lovable**
+### Incident Response Management
+- **Automated Response Actions**:
+  - IP address blocking
+  - Account lockouts
+  - Administrative notifications
+- **Incident Tracking**: Full lifecycle management from detection to resolution
+- **Response Playbooks**: Automated mitigation workflows
+- **Status Monitoring**: Real-time incident status updates
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/61bb14cd-887f-436a-9215-3bfb12e4fac9) and start prompting.
+### Security Log Analytics
+- **Live Log Streaming**: Real-time security event monitoring
+- **Multi-source Integration**: Logs from authentication, API, firewall, and security services
+- **Advanced Filtering**: Search and filter capabilities for forensic analysis
+- **Export Capabilities**: Log data export for compliance and reporting
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Technology Stack
 
-**Use your preferred IDE**
+- **Frontend**: React 18 + TypeScript
+- **UI Framework**: Tailwind CSS + shadcn/ui components
+- **Charts**: Recharts for data visualization
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Routing**: React Router v6
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎨 Design System
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The platform features a professional cybersecurity-themed design with:
+- Dark theme optimized for SOC environments
+- Neon accent colors for critical alerts and highlights
+- Responsive layout supporting multiple screen sizes
+- Accessible color contrasts and typography
+- Smooth animations and transitions
 
-Follow these steps:
+## 📊 Security Metrics Tracked
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Security Score**: Overall security posture (0-100%)
+- **Active Threats**: Current number of detected threats
+- **Events Per Hour**: Real-time security event volume
+- **Protected Users**: Number of monitored user accounts
+- **Monitored Assets**: Cloud resources under protection
+- **Detection Rules**: Active security monitoring rules
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔍 Threat Categories
 
-# Step 3: Install the necessary dependencies.
-npm i
+### High Severity
+- Brute force attacks
+- Malware detection
+- Data exfiltration attempts
+- System compromise indicators
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Medium Severity  
+- Unusual API activity
+- Geographic location anomalies
+- Failed authentication patterns
+- Resource access violations
+
+### Low Severity
+- Policy violations
+- Configuration warnings
+- Routine security events
+- Informational alerts
+
+## 🛠️ Implementation Architecture
+
+The platform simulates a cloud security monitoring environment with:
+
+```
+cloud-sec-monitor/
+├── Security Dashboard        # Real-time monitoring interface
+├── Threat Detection Engine   # Automated threat identification
+├── Alert Management System   # Notification and response workflows  
+├── Incident Response Center  # Automated mitigation actions
+├── Log Analytics Platform    # Security event processing
+└── Reporting & Documentation # Compliance and audit support
 ```
 
-**Edit a file directly in GitHub**
+## 🔒 Security Best Practices
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This platform demonstrates industry-standard security monitoring practices:
+- **MITRE ATT&CK Framework** mapping for threat categorization
+- **NIST Cybersecurity Framework** alignment for comprehensive coverage
+- **SIEM Integration** patterns for log collection and analysis
+- **SOC Workflow** automation for efficient incident response
+- **Zero Trust** principles for access control and monitoring
 
-**Use GitHub Codespaces**
+## 📈 Monitoring Capabilities
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Real-time Event Processing**: Sub-second threat detection
+- **Behavioral Analytics**: Machine learning-based anomaly detection
+- **Threat Intelligence**: Integration with security feeds and databases  
+- **Compliance Reporting**: Automated audit trail generation
+- **Performance Metrics**: SLA tracking and system health monitoring
 
-## What technologies are used for this project?
+## 🎯 Use Cases
 
-This project is built with:
+Perfect for demonstrating skills in:
+- **Security Engineering**: Threat detection and response automation
+- **Cloud Operations**: Multi-tenant security monitoring
+- **Incident Response**: Streamlined workflow management  
+- **Data Analytics**: Security metrics and trend analysis
+- **Compliance Management**: Audit trail and reporting capabilities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/61bb14cd-887f-436a-9215-3bfb12e4fac9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built with modern web technologies and security industry best practices to showcase comprehensive cloud security operations capabilities.
